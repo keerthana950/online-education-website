@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic design</title>
+    <link rel="stylesheet" href="interactive.css">
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">Graphic Design</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.pm8uPRLxBz8Xe63JMydenQHaEu&pid=Api&P=0&h=220" height="300px" width="500px">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11"> 
+        <div class="theme12">
+            <img  id="im"src="interactive.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10">You will learn how to design technologies that bring people joy, rather than frustration. You'll learn how to generate design ideas, techniques for quickly prototyping them, and how to use prototypes to get feedback from other stakeholders like your teammates, clients, and users. You'll also learn principles of visual design, perception, and cognition that inform effective interaction design.</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                Learn in-demand skills from university and industry experts
+            </li>
+            <br>
+            <li id="list">
+                Master a subject or tool with hands-on projects
+            </li>
+            <br>
+            <li id="list">
+                Develop a deep understanding of key concepts
+            </li>
+            <br>
+            <!-- <li id="list">
+                Earn a career certificate from University of California San Diego
+            </li> -->
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="interactive1.png" height="500px" width="500px">
+        </div>
+    </div>
+    <br><br>
+    <div>
+    <h1 class="theme23">Tools and Technologies</h1>
+    <button id="b1">Creativity</button>
+    <button id="b1">Graphics</button>
+    <button id="b1">Design Theory</button>
+    <button id="b1">Color Theory</button>
+    <button id="b1">Typography</button>
+    <button id="b1">Visual Communication</button>
+    </div>
+    <br><br><br>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">Is there any number to Contact for queries?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may call us on 934567899 for any query</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">When wil I have access to the assignments and lectures?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">It depends on your type of enrollment</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+        </script>
+    
+</body>
+</html>

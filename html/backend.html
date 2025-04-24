@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+    <link rel="stylesheet" href="backend.css">
+    <title>Backend</title>
+    <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">Backend Web Development</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/d6/554730bda341178c8c2801a0603acd/Hands-on-Introduction-to-Linux_Final.jpg?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50 " height="300px" width="500px">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11">
+        <div class="theme12">
+            <img  id="im"src="backend.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10">From formatted text to pop-up chats, front-end web developers help create the user-facing aspects of a website, ensuring that a website is designed for the optimal user experience. Discover how to learn front-end web development online with CodeCrafters..</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                Go from Zero skills to building Powerful Web Applications on a highly professional level using the latest 2023 Web Technologies.
+            </li>
+            <br>
+            <li id="list">
+                Use Javascript, jQuery & jQuery User Interface to create Interactive Websites and Games.
+            </li>
+            <br>
+            <li id="list">
+                Create a Professional website with video background using HTML5, CSS3, jQuery & Bootstrap.
+            </li>
+            <br>
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="responsive des.png">
+        </div>
+    </div>
+    <br><br>
+    <div>
+    <h1 class="theme23">Tools and Technologies</h1>
+    <button id="b5"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/mongo_1686758631.png">MongoDB</button>
+    <button id="b6"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/ex_1686768580.png">Express</button>
+    <button id="b6"><img src="https://tse4.mm.bing.net/th?id=OIP.m5RYM_Wkj4LsZewpigV5tgHaDf&pid=Api&P=0&h=220" id="tech">Node JS</button>
+    <button id="b7"><img src="https://tse2.mm.bing.net/th?id=OIP.SxgMUs6vep_hTf0yGnXUWgHaEK&pid=Api&P=0&h=220" id="tech">Django</button>
+    <button id="b7"><img src="https://s.yimg.com/fz/api/res/1.2/OSmIl9cDuHDCfJldlB_QFw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MzMy/https://s.yimg.com/zb/imgv1/d2aa360b-0eb8-3afc-8bb5-dda574fd2e83/t_500x300" id="tech">Spring Boot</button>
+    <button id="b7"><img src="https://tse4.mm.bing.net/th?id=OIP.ykx4uSY43Mve8g9gvoZAsAHaHa&pid=Api&P=0&h=220" id="tech">PHP</button>
+    <button id="b5"><img src="https://tse2.mm.bing.net/th?id=OIP._Lm_T3scKhVEVFC54gcRxwHaE8&pid=Api&P=0&h=220" id="tech">Java</button>
+    </div>
+    <br><br><br>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">Is there any number to Contact for queries?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may call us on 934567899 for any query</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">What are the prerequisites for this course?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">Basics Of Programming</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+        </script>
+    
+</body>
+</html> 

@@ -1,0 +1,162 @@
+body
+{
+   background-color: #191919;
+ 
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+.theme7
+{
+   
+   margin-top: 50px;
+   height: 100px;
+   padding-top: 25px;
+   color: #1BA098;
+}
+.theme2
+{
+   padding-left: 70px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+}
+.theme3
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #1BA098;
+}
+.theme4
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+}
+.theme5
+{
+   padding-left: 75px;
+   text-decoration: none;
+   
+   font-size: 25px;
+   
+}
+.theme6
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+
+}
+.theme8 {
+    border-style: solid;
+    background-color: #1BA098;
+    height: 520px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.theme9{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theme10 {
+    display: flex;
+    align-items: center;
+}
+
+.theme11 {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.theme12 {
+    font-size: 18px;
+}
+.theme13
+{
+
+    border-style: solid;
+    background-color: #1BA098;
+    height: 520px;
+    width: 800px;
+    display: flex;
+    margin-left: 100px;
+}
+.theme14
+{
+    display: flex;
+}
+.theme15
+{
+    text-align: center;
+    padding-left: 400px;
+}
+.theme16
+{
+    border-style: solid;
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.theme17
+{ 
+    border-style: solid;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+::placeholder
+{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+   margin-right: 20px;
+    
+}
+.theme18
+{
+    padding-left: 220px;
+}
+.theme19
+{
+    margin-left: 80px;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 500px;
+    align-items: center;
+}
+.theme20
+{
+    margin-left: 80px;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 2px;
+    padding-left: 500px;
+    align-items: center;
+    text-align: center;
+}
+.theme21
+{
+    padding: 20px;
+    background-color: chocolate;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.theme19::placeholder{
+    text-align: center;
+}
+#rp
+{
+    margin-left: 50px;
+}
+
+
+

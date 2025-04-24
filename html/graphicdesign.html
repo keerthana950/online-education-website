@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic design</title>
+    <link rel="stylesheet" href="graphicdesign.css">
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">Graphic Design</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/bd/fb88d0e9bc11e5abe1133ac5dcedb7/InteractiveComputerGraphics.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&q=50&fit=crop" height="300px" width="500px">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11"> 
+        <div class="theme12">
+            <img  id="im"src="graphic design.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10">This course is specifically design for beginners interested in graphic design theory. Philosophies and practical projects are given so that you not only understand the reasoning behind the theory, but you also get a chance to practice it to.</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                You will have intermediate to expert level knowledge of graphic design theory that you will immediately be able to apply to your career, job, hobby, or company.
+            </li>
+            <br>
+            <li id="list">
+                You will be given real-world, applicable projects that you can follow along with and practice.
+            </li>
+            <br>
+            <li id="list">
+                You will learn photography composition and how it interacts with graphic design elements to create stunning looking artwork.
+            </li>
+            <br>
+            <li id="list">
+                You will learn color theory and how it applies to the world around us, from products and art to branding and advertising.
+            </li>
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/02/41460a29d744dfa39106941eae2e02/fb-specialization.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=265&h=216&fit=crop&q=50">
+        </div>
+    </div>
+    <br><br>
+    <div>
+    <h1 class="theme23">Tools and Technologies</h1>
+    <button id="b1">Creativity</button>
+    <button id="b1">Graphics</button>
+    <button id="b1">Design Theory</button>
+    <button id="b1">Color Theory</button>
+    <button id="b1">Typography</button>
+    <button id="b1">Visual Communication</button>
+    </div>
+    <br><br><br>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">Is there any number to Contact for queries?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may call us on 934567899 for any query</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">When wil I have access to the assignments and lectures?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">It depends on your type of enrollment</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+        </script>
+    
+</body>
+</html>

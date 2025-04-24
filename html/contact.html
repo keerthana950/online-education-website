@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+    <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="theme1">
+        <nav class="theme7">
+           <span class="theme2">CodeCrafters</span>
+           <span class="theme3"><a href="index.html">Home</a></span>
+           <span class="theme4"><a href="about.html">About</a></span>
+           <span class="theme5"><a href="courses.html">Courses</a></span>
+           <span class="theme6"><a href="contact.html">Contact Us</a></span>
+        </nav>
+    </div> 
+    <br><br>
+    <div class="theme14">
+        <div class="theme8">
+            <img src="contact.svg" height="200px" width="200px">
+            <div class="theme9">
+                <h1>Contact us</h1>
+                <div class="theme10">
+                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                    <span class="text">123-456-7890</span>
+                    <br><br>
+                </div>
+                <div class="theme10">
+                    <span class="theme11"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="theme12">codecrafters@gmail.com</span>
+                    <br><br>
+                </div>
+                <div class="theme10">
+                    <span class="theme11"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="theme12">Hitech City,Hyderabad,India</span>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="theme13">
+            <br>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <h1 class="theme18">Send us a Message</h1>
+                <div>
+                    <input class="theme16" type="text" placeholder="First Name" id="name" required>
+                    <input class="theme17" type="text" placeholder="Last Name" id="lastName" required>
+                    <input class="theme19" type="email" placeholder="Email Address" id="email" required>
+                    <h2 id="rp">Your message:</h2>
+                    <textarea class="theme20" rows="5" cols="10" id="message" required></textarea>
+                    <br>
+                    <button type="submit" class="theme21" onclick="displayThankYou()">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var firstName = document.getElementById("name").value;
+            var lastName = document.getElementById("lastName").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (firstName === "" || lastName === "" || email === "" || message === "") {
+                alert("Please fill in all fields");
+                return false;
+            }
+
+            return true; 
+        }
+
+        function displayThankYou() {
+            var firstName = document.getElementById("name").value;
+            if (firstName !== "") {
+                alert("Thank you for contacting us, " + firstName + "!");
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>

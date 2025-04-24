@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrationform.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="theme1">Application Form</h1>
+    <div class="theme7">
+    <form class="theme6">
+        <label class="theme2">Full Name</label><br><br>
+        <input form="text" placeholder="Enter full Name" size="50" id="ab">
+        <br><br><br>
+        <label class="theme3">Email id</label><br><br>
+        <input form="email" placeholder="Enter your Email"size="50" id="ab">
+        <br><br><br>
+        <label class="theme4">Phone number</label><br><br>
+        <input form="text" placeholder="Enter your PhoneNumber" size="50" id="ab">
+        <br><br><br>
+        <label class="theme5">Graduation Year</label><br><br>
+        <input type="text" placeholder="Enter your graduation year" size="50" id="ab">
+        <br><br><br>
+        <button class="theme8" onclick="fun1()">Register Now</button>
+    </form>
+    </div>
+    <script>
+        function fun1()
+        {
+            alert("Thankyou for Registering!!Our team will contact you shortly");
+        }
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrationform.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1 class="theme1">Application Form</h1>
+    <div class="theme7">
+        <form class="theme6" id="registrationForm" onsubmit="return validateForm()">
+            <label class="theme2">Full Name</label><br><br>
+            <input type="text" placeholder="Enter full Name" size="50" id="fullName" required>
+            <br><br><br>
+            <label class="theme3">Email id</label><br><br>
+            <input type="email" placeholder="Enter your Email" size="50" id="email" required>
+            <br><br><br>
+            <label class="theme4">Phone number</label><br><br>
+            <input type="tel" placeholder="Enter your Phone Number" size="50" id="phoneNumber" required>
+            <br><br><br>
+            <label class="theme5">Graduation Year</label><br><br>
+            <input type="number" placeholder="Graduation year" size="500" id="graduationYear" required>
+            <br><br><br>
+            <button type="submit" class="theme8">Register Now</button>
+        </form>
+    </div>
+    <script>
+        function validateForm() {
+            var form = document.getElementById("registrationForm");
+            if (form.checkValidity()) {
+                alert("Thank you for Registering!! Our team will contact you shortly");
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uniux.css">
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+    <title>UI/UX Designing</title>
+    <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">UI/UX Designing</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="uiux.png">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11">
+        <div class="theme12">
+            <img  id="im"src="course7.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10"> Empathize with users, define pain points, ideate solutions, create wireframes and prototypes, test and iterate on designs</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                Apply foundational UX concepts, like user-centered design, accessibility, and equity-focused design
+            </li>
+            <br>
+            <li id="list">
+                Understand the basics of UX research, like planning research studies, conducting interviews and usability studies, and synthesizing research results
+            </li>
+            <br>
+            <li id="list">
+                Create a professional UX portfolio that includes 3 end-to-end projects: a mobile app, a responsive website, and a cross-platform experience
+            </li>
+            <br>
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="uiuxdes.png">
+        </div>
+    </div>
+    <br><br>
+    <div>
+    <h1 class="theme23">Skills you'll gain</h1>
+    <button id="b1">UserExperience</button>
+    <button id="b1">Prototype</button>
+    <button id="b1">Wireframe</button>
+    <button id="b1">User experience design</button>
+    <button id="b1">UX research</button>
+    <button id="b1">Mock Up</button>
+    </div>
+    <br><br><br>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">What is a UX designer?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">User experience (UX) designers focus on the experience that users have while using products like websites, apps, and physical objects. UX designers make those everyday interactions useful, enjoyable, and accessible. The role of an entry-level UX designer might include coming up with ideas to address user problems, conducting research with users, and designing wireframes, mockups, and prototypes.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">Which tools or platforms are included in this ciricculum?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">Figma and Adobe XD are the design tools taught in this certificate program. Spreadsheets, word processing applications, and presentation applications will also be used. Throughout the program, you will create a professional portfolio, using the platform of your choice, to showcase your UX design work.</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+        </script>
+    
+</body>
+</html> 

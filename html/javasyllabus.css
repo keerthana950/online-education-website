@@ -1,0 +1,30 @@
+.theme30
+  {
+    color: white;
+    text-align: center;
+  }
+  .theme33
+  {
+    border-style: solid;
+    height: 2700px;
+    width: 1000px;
+    margin-left: 200px;
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+  }
+  .theme32
+  {
+    color: black;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  .theme34
+  {
+    color: black;
+    margin-left: 10px;
+  }
+  .theme35
+  {
+    text-align: center;
+  }

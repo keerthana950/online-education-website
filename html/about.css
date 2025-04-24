@@ -1,0 +1,349 @@
+body
+{
+   background-color: #191919;
+ 
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+.theme7
+{
+   
+   margin-top: 50px;
+   height: 100px;
+   padding-top: 25px;
+   color: #1BA098;
+}
+.theme2
+{
+   padding-left: 70px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+}
+.theme3
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #1BA098;
+}
+.theme4
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+}
+.theme5
+{
+   padding-left: 75px;
+   text-decoration: none;
+   
+   font-size: 25px;
+   
+}
+.theme6
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+
+}
+.theme8
+{
+    display: flex;
+}
+.theme9
+{
+    float: left;
+}
+.theme10
+{
+    display: flex;
+    margin-top: 200px;
+    padding-right: 30px;
+    margin-right: 600px;
+    /* margin-left: 20px; */
+    /* margin-right: 50000px; */
+    justify-content: center;
+    /* align-items: center; */
+}
+ .theme11
+{
+    color: white;
+    /* margin-left: 20px; */
+    display: block;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.theme12
+{
+    border-style: none;
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 50px;
+    display: flex;
+    /* padding-right: 40px; */
+} */
+.theme11 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.theme12 {
+    border-style: none;
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 20px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.fa-solid fa-video
+{
+    padding-top: 10px;
+}
+.theme13
+{
+    font-size: 25px;
+}
+.theme14
+{
+    color: white;
+    text-align: center;
+}
+.theme15
+{
+    display: flex;
+}
+#im
+{
+    height: 200px;
+    width: 200px;
+}
+.theme16
+{
+    margin-left: 300px;
+}
+.theme17
+{
+    margin-left: 50px;
+}
+.theme18
+{
+    margin-left: 50px;
+}
+.theme19
+{
+    margin-left: 50px;
+}
+.theme20
+{
+    color: #1BA098;
+    font-size: 20px;
+    
+}
+.theme21
+{
+    display: flex;
+    border-style: none;
+    background-color: #1c1c1c;
+    height: 450px;
+    width: 800px;
+    margin-left: 400px;
+
+}
+.theme24
+{
+    color: white;
+    font-size: 20px;
+}
+.theme22
+{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.theme23
+{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.theme25
+{
+    color: white;
+    text-align: center;
+}
+.slideshow-container {
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+
+ 
+  .image-track {
+    display: flex;
+  }
+
+
+  .mySlides {
+    width: 100%;
+    margin-right: 50px; 
+  }
+
+
+  .mySlides:last-child {
+    margin-right: 0;
+  }
+  .theme26
+  {
+    border-style: none;
+    height: 250px;
+    width: 800px;
+    background-color: #1c1c1c;
+    margin-left: 400px;
+  }
+  .theme27
+  {
+    color: white;
+    padding-top: 20px;
+  }
+  .theme28
+  {
+    color: #1BA098;
+    padding-left: 20px;
+  }
+  .theme29
+  {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .theme12:hover
+  {
+    background-color: #1BA098;
+  }
+  .mentor {
+    position: relative;
+    display: inline-block;
+}
+
+.im {
+    transition: transform 0.3s ease;
+}
+
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    /* Nav Bar */
+    .theme7 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .theme2 {
+      padding-left: 0;
+      font-size: 30px;
+    }
+    .theme3, .theme4, .theme5, .theme6 {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    /* Achievements Section */
+    .theme10 {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+    }
+    .theme12 {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    /* Team Section */
+    .theme15 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .theme16, .theme17, .theme18, .theme19 {
+      margin-left: 0;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    /* What Sets Us Apart Section */
+    .theme21 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .theme22, .theme23 {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    /* Alumni Section */
+    .theme25 {
+      text-align: center;
+    }
+  
+    /* Reviews and Ratings Section */
+    .theme26 {
+      flex-direction: column;
+      align-items: center;
+    }
+    .theme27, .theme28, .theme29 {
+      text-align: center;
+    }
+
+    .theme26 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center items vertically */
+        text-align: center; /* Center text */
+      }
+  }
+  
+  /* For larger screens */
+  @media screen and (min-width: 1200px) {
+    /* Achievements Section */
+    .theme10 {
+      justify-content: center;
+    }
+    .theme12 {
+      margin-left: 50px;
+    }
+  
+    /* Team Section */
+    .theme15 {
+      justify-content: center;
+    }
+    .theme16, .theme17, .theme18, .theme19 {
+      margin-left: 50px;
+    }
+  
+    /* What Sets Us Apart Section */
+    .theme21 {
+      justify-content: center;
+    }
+  
+    /* Alumni Section */
+    .theme25 {
+      text-align: center;
+    }
+  
+    /* Reviews and Ratings Section */
+    .theme26 {
+      justify-content: center;
+    }
+  }
+  

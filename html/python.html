@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css">
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+    <title>Python Tutorial</title>
+    <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">Complete Python Tutorial</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="python1.jpg" height="300px" width="400px">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11">
+        <div class="theme12">
+            <img  id="im" src="python.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10">Kick-start your JAVA programming journey with this self-paced course and master the language from basic to advanced level. Curated and taught by industry experts with years of experience, this course will help you learn:Java Basics, Data Types, Operators, Loops, Strings, OOPS, Java Collections and Frameworks including Streams, Lists, Set, Map & much more.</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                Programming Proficiency:<br> Develop a strong foundation in programming languages to tackle coding challenges with confidence.
+            </li>
+            <br>
+            <li id="list">
+                Real-World Application:<br> Engage in hands-on projects and build remarkable applications to apply your skills.
+            </li>
+            <br>
+            <li id="list">
+                Auto-graded quizzes and immediate feedback help you reinforce your skills as you learn
+            </li>
+            <br>
+            <li id="list">
+                Guided projects that help you solidify the skills and concepts you're learning.
+            </li>
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="python4.png" width="400px">
+        </div>
+    </div>
+    <br><br>
+    
+    <br><br><br>
+    <h1 class="theme30">Course Content</h1>
+    <div class="theme33">
+       <h2 class="theme34">1) Python Basics</h2>
+       <ul class="theme31">
+        <li class="theme32">Why do we need Programming Languages</li><br>
+        <li class="theme32">Writing the first program in Python/li><br>
+       </ul>
+       <h2 class="theme34">2) Variables And DataTypes</h2>
+       <ul class="theme31">
+       <li class="theme32">
+        Learn about variables in Python
+       </li><br>
+      
+       </ul>
+       <h2 class="theme34">3) Input And Output in Python</h2> 
+       <ul class="theme31">
+        <li class="theme32">Input and Output in Python</li><br>
+        <li class="theme32">Escape Sequences in Python</li>
+       </ul>
+       <h2 class="theme34">4) Operators In Python</h2>
+       <ul class="theme31">
+        <li class="theme32">What are Operators</li><br>
+        <li class="theme32">Types of Operators</li>
+       </ul>
+       <h2 class="theme34">5) Flow Control in Python</h2>
+       <ul class="theme31">
+        <li class="theme32">If Else Statements and Switch Statement</li><br>
+        <li class="theme32">Even Odd Numbers, Largest of Three Numbers, Leap Year, Calculator</li>
+       </ul>
+       <h2 class="theme34">6) Functions in Python</h2>
+       <ul class="theme31">
+        <li class="theme32">Functions and applications of Functions</li><br>
+        <!-- <li class="theme32"> Command Line Arguments in Java</li> -->
+       </ul><br>
+       <button id="theme35">Click here to view full syllabus</button>
+    </div>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">Is there any number to Contact for queries?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may call us on 934567899 for any query</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">Does this course also include OOPS?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">Yes,this course covers OOPS concepts from basics to advance</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+          document.getElementById("theme35").addEventListener("click",function(){
+              window.location.href="pythonsyllabus.html";
+          });
+        </script>
+    
+</body>
+</html> 

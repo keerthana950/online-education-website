@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="icon" type="logo4.svg" href="logo4.svg">
+  <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="theme1">
+    <nav class="theme7">
+      <span class="theme2">CodeCrafters</span>
+      <span class="theme3"><a href="index.html">Home</a></span>
+      <span class="theme4"><a href="about.html">About</a></span>
+      <span class="theme5"><a href="courses.html">Courses</a></span>
+      <span class="theme6"><a href="contact.html">Contact Us</a></span>
+    </nav>
+  </div> <br><br>
+  <div class="theme8">
+    <div class="theme9">
+      <img src="about achievements.svg" height="500px">
+    </div>
+    <!-- <h1 class="theme11">Achievements</h1><br><br> -->
+    <div class="theme11">
+      <span>Achievements</span><br><br>
+    </div>
+    <div class="theme10">
+
+      <div class="theme12">
+        <i class="fa-solid fa-video"></i>
+        <p class="theme13">100+</p>
+        <p class="theme13">Courses</p>
+      </div>
+      <div class="theme12">
+        <i class="fa-solid fa-user"></i>
+        <p class="theme13">1000+</p>
+        <p class="theme13">Students</p>
+      </div>
+      <div class="theme12">
+        <i class="fa-solid fa-award"></i>
+        <p class="theme13">23</p>
+        <p class="theme13">Awards</p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <h1 class="theme14">Meet Our Team</h1>
+  <div class="theme15">
+    <div class="theme16">
+      <img id="im" src="tm1.jpg">
+      <h2 class="theme20">Chandler Bing</h2>
+    </div>
+    <div class="theme17">
+      <img id="im" src="tm2.jpg">
+      <h2 class="theme20">Monica Geller</h2>
+    </div>
+    <div class="theme18">
+      <img id="im" src="tm4.jpg">
+      <h2 class="theme20">Joey Tribbiani</h2>
+    </div>
+    <div class="theme19">
+      <img id="im" src="tm5.jpg">
+      <h2 class="theme20">Phoebe Buffay</h2>
+    </div>
+  </div>
+  <br><br>
+  <h1 class="theme14">What sets Us Apart</h1>
+  <div class="theme21">
+    <div class="theme22">
+      <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230807110814/24X7-Doubt-Support-4-3.png">
+    </div>
+    <div class="theme23">
+      <h4 class="theme20">24 X 7 Doubt Support</h4>
+      <p class="theme24">
+        A dedicated service provided with this course for free to help you overcome any doubt, at any time, and
+        anywhere. So unleash your coding potential with confidence, as our Doubt Support service stands by your side!
+        <br><br>
+
+        Benefits of this service: <br><br>
+
+        - Access to Expert TAs<br>
+        - Prompt Response<br>
+        - Tailored Guidance<br>
+        - 1:1 Video & On-Call Support<br>
+        & Much More<br>
+
+        Now code with confidence, triumph over doubts, and level up your skills!
+      </p>
+    </div>
+  </div>
+  <br><br><br>
+  <h1 class="theme25">Where Our Alumini Work</h1><br><br>
+  <div class="slideshow-container">
+    <div class="image-track">
+      <!-- Images -->
+      <div class="mySlides">
+        <img src="cisco.png" height="100px" width="10px">
+      </div>
+      <div class="mySlides">
+        <img src="tcs.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="cognizant.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="goldman.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="hcl.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="hp.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="infosys.png" height="100px" width="100px">
+      </div>
+      <div class="mySlides">
+        <img src="oracle.png" height="100px" width="100px">
+      </div>
+
+    </div>
+  </div>
+  <br><br>
+  <h1 class="theme25">Reviews And Ratings</h1>
+  <div class="theme26">
+    <h2 class="theme27">Vineeth sekhar</h2>
+    <h2 class="theme28">Placed At oracle</h2>
+    <p class="theme29">This course was packed with amazing and well-organised content! The project-based approach of
+      this course made it even better to understand concepts faster. The instructor is really good and knowledgeable. I
+      have built a strong profile with multiple projects. I also delved deeper into these technologies which in turn
+      helped me to secure a job offer at oracle.</p>
+  </div>
+  <br><br>
+  <div class="theme26">
+    <h2 class="theme27">Ishan Sharma</h2>
+    <h2 class="theme28">Placed At Adobe</h2>
+    <p class="theme29">This course helped me in getting brief knowledge about programming due to which I have upgraded
+      my technical skills for development. Not only that with the help of this course I was able to get more job offers
+      from IT companies. The course teaching style was spot on and I was able to grasp more than enough to become a
+      decent developer.</p>
+
+    <script>
+      var slides = document.querySelectorAll(".mySlides");
+      var imageTrack = document.querySelector(".image-track");
+
+
+      for (var i = 0; i < slides.length; i++) {
+        var clone = slides[i].cloneNode(true);
+        imageTrack.appendChild(clone);
+      }
+
+
+      var slideWidth = slides[0].offsetWidth + 20;
+      var totalWidth = slideWidth * slides.length;
+      imageTrack.style.width = totalWidth + "px";
+
+
+      var position = 0;
+      var speed = 1;
+
+      function slide() {
+        position -= speed;
+        if (position <= -totalWidth / 2) {
+          position = 0;
+        }
+        imageTrack.style.transform = "translateX(" + position + "px)";
+        requestAnimationFrame(slide);
+      }
+
+      slide();
+    </script>
+
+</body>
+
+</html>

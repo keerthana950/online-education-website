@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <title>FullStack</title>
+    <link rel="icon" type="logo4.svg" href="logo4.svg">
+    <script src="https://kit.fontawesome.com/5bafccf36f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="theme4">
+        <div class="theme5">
+            <h1 class="theme1">Full Stack Web Development</h1>
+            <h2 class="theme2">Master Classes with industry experts</h2>
+            <h2 class="theme3">Recommended for Students and Working Professionals</h2>
+            <button id="theme7">Register Now</button>
+            <h4 class="theme8">Fill out the form to increase your<br> chances of getting shortlisted</h4>
+        </div>
+            <div class="theme6">
+            <img src="responsive1.png" height="400px" width="500px">
+            </div>
+    </div>
+    <br><br><br>
+    <div class="theme11">
+        <div class="theme12">
+            <img  id="im"src="course2.jpg">
+        </div>
+        <div class="theme13">
+    <h1 class="theme9">Course Description</h1>
+    <h3 class="theme10">This program is designed to take you on a transformative journey <br>from mastering langauges  to becoming a proficient Developer . Whether you aspire<br> to become a front-end developer, back-end developer, full-stack developer,<br>  or specialize in a specific tech-stack, this program provides the essential building blocks for your coding journey starting right from basic programming to building applications.</h3>
+    <div class="theme18">
+    <div class="theme16">
+    <button class="theme14"><img src="entypo_bar-graph_1686902995.png"></button>
+    </div>
+    <div class="theme17">
+    <h4 class="theme15">Begginer to advance</h4>
+    </div>
+    </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="theme22">
+        <div class="theme19">
+           <h1 class="theme21">Course Insights</h1>
+           <ul class="theme20">
+            <li id="list">
+                Programming Proficiency:<br> Develop a strong foundation in programming languages to tackle coding challenges with confidence.
+            </li>
+            <br>
+            <li id="list">
+                Real-World Application:<br> Engage in hands-on projects and build remarkable applications to apply your skills.
+            </li>
+            <br>
+            <li id="list">
+                Versatility in Tech Stacks: <br>Choose full-stack development, data science or specialize in specific technology stacks like MERN, Java.
+                
+            </li>
+            <br>
+            <li id="list">
+                Expert Mentoring: <br>Gain valuable insights and guidance from industry professionals and mentors.
+            </li>
+           </ul>
+        </div>
+        <div>
+          <img  id="res"src="responsive des.png">
+        </div>
+    </div>
+    <br><br>
+    <div>
+    <h1 class="theme23">Tools and Technologies</h1>
+    <button id="b1"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/Group%2035686_1686758931.png">HTML</button>
+    <button id="b2"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/css_1686757885.png">CSS</button>
+    <button id="b3"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/js_1686757947.png">JavaScript</button>
+    <button id="b4"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/java_1686757933.png">Java</button>
+    <button id="b5"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/mongo_1686758631.png">MongoDB</button>
+    <button id="b6"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/ex_1686768580.png">Express</button>
+    <button id="b7"><img src="https://media.geeksforgeeks.org/img-practice/prod/courses/1/Web/Other/react_1686758662.png">React</button>
+    </div>
+    <br><br><br>
+    <h1 class="theme24">FAQ'S</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question">
+              <span id="que">Is there any number to Contact for queries?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may call us on 934567899 for any query</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="question">
+              <span id="que">How can I enroll in this course?</span>
+              <span class="plus-minus-toggle">+</span>
+            </div>
+            <div class="answer">
+              <p id="que">You may register first then our team members will contact you</p>
+            </div>
+            <div class="faq-item">
+                <div class="question">
+                <span id="que">How much does this course cost?</span>
+                <span class="plus-minus-toggle">+</span>
+              </div>
+              <div class="answer">
+                <p id="que">After registering you will be notified by our team members</p>
+              </div>
+          </div>
+        </div>
+        
+        <script>
+          const questions = document.querySelectorAll('.question');
+        
+          // Add click event listener to each question
+          questions.forEach(question => {
+            question.addEventListener('click', () => {
+              const answer = question.nextElementSibling;
+              const plusMinusToggle = question.querySelector('.plus-minus-toggle');
+              if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+                plusMinusToggle.textContent = '+';
+              } else {
+                answer.style.display = 'block';
+                plusMinusToggle.textContent = '-';
+              }
+            });
+          });
+          document.getElementById("theme7").addEventListener("click",function(){
+              window.location.href="registrationform.html";
+          });
+        </script>
+    
+</body>
+</html> 

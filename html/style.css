@@ -1,0 +1,353 @@
+
+body
+{
+   background-color: #191919;
+}
+a{
+   color: white;
+   text-decoration: none;
+}
+.theme7
+{
+   
+   margin-top: 50px;
+   height: 100px;
+   padding-top: 25px;
+   color: #1BA098;
+}
+.theme2
+{
+   padding-left: 70px;
+   font-size: 50px;
+   text-decoration: none;
+   color: white;
+}
+.theme3
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #1BA098;
+}
+.theme4
+{
+   padding-left: 75px;
+   text-decoration: none;
+   font-size: 25px;
+}
+.theme5
+{
+   padding-left: 75px;
+   text-decoration: none;
+   
+   font-size: 25px;
+   
+}
+.theme6
+{
+   padding-left: 75px;
+   text-decoration: none;
+
+   font-size: 25px;
+
+}
+.theme8
+{
+   padding-top: 70px;
+}
+.theme9
+{
+   padding-left: 50px;
+   display: flex;
+   float: left;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.theme10
+{
+   display: flex;
+   float: right;  
+   padding-right: 80px;
+   height: 500px;
+   width: 500px;
+}
+#theme11
+{
+   margin-left: 50px;
+   float: left;
+   padding: 10px;
+   background-color: chocolate;
+   margin-left: 150px;
+}
+.theme12
+{
+   background-color: #1BA098;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.theme14
+{
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-bottom: 50px;
+   font-family: cursive;
+
+}
+.theme15
+{
+   color: white;
+   text-align: center;
+}
+#im
+{
+    height: 50px;
+    width: 50px;
+}
+/* .theme17
+{
+   color: black;
+   text-align: center;
+   padding-right: 3px;
+} */
+h3{
+   color: black;
+   text-align: center;
+   justify-content: center;
+   margin-right: 15px;
+}
+.theme16
+{
+   margin-left: 400px;
+   border-style: solid;
+   border-color: #1BA098;
+   width: 80px;
+   padding: 50px;
+   height: 50px;
+   display: block;
+   float: left;
+   background-color: white;
+}
+.theme18
+{
+  display: block;
+  margin-left: 100px;
+  border-style: solid;
+  border-color: #1BA098;
+  width: 80px;
+  padding: 50px;
+  float: right;
+  height: 50px;
+  margin-right: 100px;
+  background-color: white;
+  
+}
+.theme19
+{
+   display: block;
+   border-style: solid;
+  border-color: #1BA098;
+  width: 80px;
+  padding: 50px;
+  /* float: right; */
+  height: 50px;
+  margin-right: 90px;
+  margin-left: 20px;
+  background-color: white;
+  /* padding-left: 10px; */
+
+
+}
+.theme20
+{
+   display: flex;
+}
+.theme16:hover
+{
+   background-color: #1BA098;
+   border-color: white;
+}
+.theme18:hover
+{
+  background-color: #1BA098;
+  border-color: white;
+}
+.theme19:hover
+{
+   background-color: #1BA098;
+   border-color: white;
+}
+.theme21
+{
+   background-color: white;
+   width:300px;
+   height: 400px;
+   margin-left: 100px;
+}
+#cou1
+{
+   height: 100px;
+   width: 300px;
+}
+#rt
+{
+   padding-left: 30px;
+}
+.theme23
+{
+   display: flex;
+   padding-left: 30px;
+}
+.theme24
+{
+   padding-left: 50px;
+}
+#bt
+{
+   background-color: chocolate;
+   padding: 10px;
+   border-radius: 10px;
+}
+.theme21:hover
+{
+   transform: scale(1.5);
+   border-color: #1BA098;
+}
+.theme25
+{
+   margin-left: 150px;
+   background-color: white;
+   width:300px;
+   height: 400px;  
+}
+.theme26
+{
+   display: flex;
+}
+.theme27
+{
+   margin-left: 200px;
+   background-color: white;
+   width:300px;
+   height: 400px;  
+}
+.theme25:hover{
+   transform: scale(1.5);
+   border-color: #1BA098;
+
+}
+.theme27:hover{
+   transform: scale(1.5);
+   border-color: #1BA098;
+
+}
+/* Add this to your existing CSS */
+.logo-container {
+   display: flex;
+   align-items: center;
+   margin-top: 20px; /* Adjust margin as needed */
+}
+
+.logo {
+   height: 50px; /* Adjust height as needed */
+   width: 50px; /* Adjust width as needed */
+   margin-right: 10px; /* Adjust margin as needed */
+}
+
+.logo-caption {
+   font-size: 20px; /* Adjust font size as needed */
+   color: white; /* Adjust color as needed */
+}
+
+.image-caption-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px; /* Adjust margin as needed */
+}
+
+.image-container {
+   margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.image {
+   width: 100%; /* Adjust width as needed */
+   max-width: 400px; /* Adjust max-width as needed */
+}
+
+.caption {
+   font-size: 24px; /* Adjust font size as needed */
+   color: #1BA098;
+   text-align: center;
+   margin-left: 50px;
+}
+.adjust
+{
+   display: flex;
+}
+
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+   .theme2, .theme3, .theme4, .theme5, .theme6 {
+      padding-left: 0; /* Adjust as needed */
+      font-size: 20px; /* Adjust as needed */
+   }
+   .theme8 {
+      padding-top: 20px; /* Adjust as needed */
+   }
+   .theme9 {
+      padding-left: 20px; /* Adjust as needed */
+   }
+   .theme10 {
+      padding-right: 20px; /* Adjust as needed */
+      height: auto; /* Adjust as needed */
+      width: 100%; /* Adjust as needed */
+   }
+   #theme11 {
+      margin-left: 20px; /* Adjust as needed */
+   }
+   .theme12 {
+      margin: 20px; /* Adjust as needed */
+   }
+   .theme14 {
+      padding: 20px; /* Adjust as needed */
+   }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1200px) {
+   .adjust {
+      flex-direction: row; /* Adjust as needed */
+      justify-content: space-between; /* Adjust as needed */
+   }
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+   .theme7 {
+      flex-direction: column; /* Display items vertically */
+      align-items: center; /* Center items horizontally */
+   }
+   .theme2 {
+      padding-left: 0; /* Reset padding */
+      padding-bottom: 10px; /* Add some space between logo and links */
+      font-size: 30px; /* Adjust font size */
+   }
+   .theme3, .theme4, .theme5, .theme6 {
+      padding: 10px; /* Add padding to links */
+   }
+}
+
+/* For larger screens */
+@media screen and (min-width: 1200px) {
+   .theme7 {
+      justify-content: space-between; /* Spread items horizontally */
+   }
+   .theme2 {
+      padding-left: 70px; /* Reset padding */
+   }
+   .theme3, .theme4, .theme5, .theme6 {
+      padding-left: 75px; /* Reset padding */
+   }
+}

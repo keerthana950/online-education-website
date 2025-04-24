@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slideshow</title>
+  <style>
+    /* CSS for slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+    }
+
+    /* CSS for image track */
+    .image-track {
+      display: flex;
+    }
+
+    /* CSS for images */
+    .mySlides {
+      width: 100%;
+      margin-right: 50px; /* Adjust margin for space between images */
+    }
+
+    /* To remove margin from last slide */
+    .mySlides:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+  <div class="image-track">
+    <!-- Images -->
+    <div class="mySlides">
+      <img src="cisco.png" height="100px" width="10px">
+    </div>
+    <div class="mySlides">
+      <img src="tcs.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="cognizant.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="goldman.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="hcl.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="hp.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="infosys.png" height="100px" width="100px">
+    </div>
+    <div class="mySlides">
+      <img src="oracle.png" height="100px" width="100px">
+    </div>
+    <!-- Add more images here -->
+  </div>
+</div>
+
+<script>
+  var slides = document.querySelectorAll(".mySlides");
+  var imageTrack = document.querySelector(".image-track");
+
+  // Clone the images to create a continuous loop
+  for (var i = 0; i < slides.length; i++) {
+    var clone = slides[i].cloneNode(true);
+    imageTrack.appendChild(clone);
+  }
+
+  // Calculate total width of all slides
+  var slideWidth = slides[0].offsetWidth + 20; // Width of slide + margin-right
+  var totalWidth = slideWidth * slides.length;
+  imageTrack.style.width = totalWidth + "px";
+
+  // Start sliding
+  var position = 0;
+  var speed = 1; // Adjust this value for sliding speed
+
+  function slide() {
+    position -= speed;
+    if (position <= -totalWidth / 2) {
+      position = 0;
+    }
+    imageTrack.style.transform = "translateX(" + position + "px)";
+    requestAnimationFrame(slide);
+  }
+
+  slide();
+</script>
+
+</body>
+</html>
